@@ -10,6 +10,8 @@ Le projet ne s'est pas super bien déroulé pour nous. Nous avons essayé d’in
 
 * Voila à peut près tout, Et surtout n'hésite pas à nous contacter si y'a une zone d'ombre. Et **la bonne journée à toi!!**
 
-**En bref :
-* Version avec HTML/CSS : ce répo, en local uniquement.
-* Version sans mise en page mais Live : https://cat-shop-gir.herokuapp.com/**
+---
+
+**En bref :**
+* **Version avec HTML/CSS : ce répo, en local uniquement.**
+* **Version sans mise en page mais Live : https://cat-shop-gir.herokuapp.com/**
