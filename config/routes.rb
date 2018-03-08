@@ -10,6 +10,9 @@ Rails.application.routes.draw do
   delete "/remove",     to: "adding#destroy"
   get "/remove",     to: "adding#destroy"
 
+
+  
+
   post   "/order",       to: "orders#create"
   get    "/order",       to: "orders#create"
   get "orders/index", as: "orders_list"
