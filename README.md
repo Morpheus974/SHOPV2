@@ -9,3 +9,7 @@ Le projet ne s'est pas super bien déroulé pour nous. Nous avons essayé d’in
 * Par ailleurs tu peux voir à quoi ressemble notre **mise en page** si tu lances le **serveur sur ce présent repo en local**. Quelques beugs y sont présents.
 
 * Voila à peut près tout, Et surtout n'hésite pas à nous contacter si y'a une zone d'ombre. Et **la bonne journée à toi!!**
+
+**En bref :
+* Version avec HTML/CSS : ce répo, en local uniquement.
+* Version sans mise en page mais Live : https://cat-shop-gir.herokuapp.com/**
