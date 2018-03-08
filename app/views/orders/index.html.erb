@@ -2,9 +2,10 @@
 <ul>
   <% unless  @orders.nil?%>
     <% @orders.each do |order|%>
+      <h3>Commande n° <strong><%= order.id %></strong></h3>
       <li>
         <% order.items.each do |item| %>
-          Nom <strong><%= item.title %></strong>
+          <p>Produit <strong><%= item.title %></strong>,    Prix <strong><%= item.price %>$</strong></p>
         <% end  %>
       </li>
 

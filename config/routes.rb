@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
 
-  devise_for :users
+  devise_for :users, controllers: { registrations: "users/registrations" }
+
+
   get 'paniers/index', as: "panier"
 
 
@@ -11,13 +13,13 @@ Rails.application.routes.draw do
   get "/remove",     to: "adding#destroy"
 
 
-  
+
 
   post   "/order",       to: "orders#create"
   get    "/order",       to: "orders#create"
   get "orders/index", as: "orders_list"
 
-
+  resources :items
 
 
 
@@ -47,7 +49,7 @@ Rails.application.routes.draw do
 
   get 'testcart', to: 'home#testcart' # Simon: pour tester le panier
 
-  resources :items
+
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

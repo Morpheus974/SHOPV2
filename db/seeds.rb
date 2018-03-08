@@ -5,15 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-my_users = []
 
-my_users << User.create( email:"dodo@gmail.com", password:"motdepasse", password_confirmation:"motdepasse")
-my_users << User.create( email:"dada@gmail.com", password:"motdepasse", password_confirmation:"motdepasse")
-
-my_users.each do |user|
-   user.cart = Cart.new(title: "panier User_#{user.id}")
-   user.save
-end
 
 
 my_items =[]
