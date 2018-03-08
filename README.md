@@ -1,7 +1,7 @@
 
 ### Hello correcteur!
 
-Le projet ne s'est pas super déroulé pour nous. Nous avons essayé d’insérer un template mais ça nous a pris beaucoup de temps et on s'est retrouvé aux dernières minutes avec une app qui veut pas se push sur heroku.
+Le projet ne s'est pas super bien déroulé pour nous. Nous avons essayé d’insérer un template mais ça nous a pris beaucoup de temps et on s'est retrouvé aux dernières minutes avec une app qui veut pas se push sur heroku.
 
 * Néanmoins, on réussis à pusher une version antérieur, **avec 0 mise en page**, qui fonctionne que tu trouveras içi:
 ##### https://cat-shop-gir.herokuapp.com/ ,  dont le repo github est ici https://github.com/Arnolddomaya/cat-shop. Cette version fait tout ce qui est demandé jusqu'a la prise en charge des commandes.
